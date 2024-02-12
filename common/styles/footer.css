@@ -1,5 +1,5 @@
 footer {
-    background: linear-gradient(to right top, #249b00, #49af03, #69c306, #89d70c, #a8eb12); 
+    background-image: linear-gradient(to right top, #208c00, #429e03, #5fb005, #7bc20b, #97d410);    
     padding-bottom: 5vh 0;
     display: flex;
     align-items: center;

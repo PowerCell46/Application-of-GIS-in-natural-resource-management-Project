@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+
 nav {
     width: 100vw;
     height: 10vh;
-    background-image: linear-gradient(to right top, #249b00, #49af03, #69c306, #89d70c, #a8eb12);    
+    background-image: linear-gradient(to right top, #208c00, #429e03, #5fb005, #7bc20b, #97d410);    
     position: fixed;
     top: 0; 
     left: 0;
@@ -16,9 +19,9 @@ nav {
 nav li {
     list-style: none;
     cursor: pointer;
-    font-family: 'Salsa', cursive;
+    font-family: 'Protest Riot', sans-serif;
     text-shadow: 5px 0px 7px rgba(0,0,0,0.68);
-    letter-spacing: 0.13rem;
+    letter-spacing: 0.2rem;
     font-size: 0.8rem;
     animation: float 4s ease-in-out infinite;
     color: whitesmoke;
@@ -29,7 +32,7 @@ nav li {
 nav li a {
     text-decoration: none;
     color: whitesmoke;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 
@@ -43,7 +46,7 @@ nav li a:before {
     z-index: 0;
     position: absolute;
     background: #2868bd;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 
@@ -99,6 +102,15 @@ nav li div img {
 @media screen and (max-width: 1920px) {
     nav li {
         font-size: 1.4rem;
+    }
+
+    nav li a:before {
+        content: "";
+        width: 0;
+        height: 2.5px;
+        bottom: 5px;
+        left: 0;
+        bottom: -8px;
     }
 }
 
