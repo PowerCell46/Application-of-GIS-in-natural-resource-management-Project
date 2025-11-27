@@ -216,7 +216,6 @@ function changeCardContent(index, view) {
     card.classList.add("fade-in-animation");
 }
 
-
 function incrementCard(e, view) {
     const currentIndex = Number(document.querySelector("#current-card-index").textContent) + 1 === cardsData[view].length ? 0 : Number(document.querySelector("#current-card-index").textContent) + 1;
     // console.log(currentIndex);
